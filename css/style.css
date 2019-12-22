@@ -1,0 +1,41 @@
+*{
+ 	margin: 0;
+ 	padding: 0;
+ }
+.left-nav{
+	position:fixed;
+	width:12rem;
+	left: 0;
+	background-color:#283643;
+	top: 3.5rem;
+	bottom: 0;
+	margin-bottom:0;
+}
+.nav-item {
+	padding: 0 2rem;
+	height: 3rem;
+	line-height: 3rem;
+
+}
+.left-nav li:hover{
+	background: #3c4248;
+}
+.left-nav li.active {
+	background: #3c4248;
+}
+
+.conter{
+	position:fixed;
+	top:3.5rem;
+	bottom:0;
+	left:12rem;
+	right: 0;
+	overflow: auto;
+}
+.xia {
+	height: 3rem;
+	line-height: 3rem;
+	border-bottom: 2px;
+	border-color: #e9ecef;
+	color: #6c757d;
+}
