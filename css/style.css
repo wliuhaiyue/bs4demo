@@ -1,8 +1,4 @@
-*{
- 	margin: 0;
- 	padding: 0;
- }
-.left-nav{
+.left{
 	position:fixed;
 	width:12rem;
 	left: 0;
@@ -11,20 +7,22 @@
 	bottom: 0;
 	margin-bottom:0;
 }
-.nav-item {
-	padding: 0 2rem;
+.aa {
+	padding: 0 2rem 0 2rem;
 	height: 3rem;
 	line-height: 3rem;
-
+	color:white;
 }
-.left-nav li:hover{
+.left li:hover{
 	background: #3c4248;
 }
-.left-nav li.active {
+.left li.active {
 	background: #3c4248;
 }
-
-.conter{
+.left li {
+	list-style-type:none;
+}
+.conter {
 	position:fixed;
 	top:3.5rem;
 	bottom:0;
