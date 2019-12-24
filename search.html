@@ -8,27 +8,27 @@
     <title>数据查询</title>
   </head>
   <body>
-   <div class="fixed-top">
-     <nav class="navbar navbar-expand navbar-dark bg-primary">
-       <a class="navbar-brand" href="#">某管理系统</a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav ml-auto">
-           <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <div class="fixed-top">
+    <nav class="navbar navbar-expand navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">某管理系统</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                用户操作</a>
-             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <a class="dropdown-item" href="#">个人中心</a>
-               <div class="dropdown-divider"></div>
-               <a class="dropdown-item" href="#">退出</a>
-             </div>
-           </li>
-         </ul>
-       </div>
-     </nav>
-   </div>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">个人中心</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">退出</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
    <div class="left">
      <div class="row">
        <div class="col-sm">
@@ -49,61 +49,60 @@
     </ol>
   </nav>
   <div class="container-fluid">
-  <form class="form-inline mb-4 mt-2">
-    <div class="form-group mb-2 mr-2">
-      <input type="search" class="form-control form-control-sm" id="title" name="keyword" placeholder="请输入你的用户名">
-    </div>
-    <div class="form-group mb-2 mr-2">
-      <input type="search" class="form-control form-control-sm" id="title" name="keyword" placeholder="请输入你的用户id">
-    </div>
-    <div>
-      <button type="submit" class="btn btn-primary btn-sm mb-2">搜索</button>
-    </div>
-  </form>
-  <table class="table table-bordered table-striped">
-    <thead>
-      <tr>
-        <th scope="col">用户id</th>
-        <th scope="col">First</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
-
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>Larry</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
-      </tr>
-    </tbody>
-  </table>
-  <nav aria-label="Page navigation example">
-    <ul class="pagination justify-content-end">
-      <li class="page-item">
-        <a class="page-link" href="#" tabindex="-1">Previous</a>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item">
-        <a class="page-link" href="#">Next</a>
-      </li>
-    </ul>
-  </nav>
+    <form class="form-inline mb-4 mt-2">
+      <div class="form-group mb-2 mr-2 mt-2">
+        <input type="search" class="form-control" id="title" name="keyword" placeholder="请输入你的用户名">
+      </div>
+      <div class="form-group mb-2 mr-2 mt-2">
+        <input type="search" class="form-control" id="title" name="keyword" placeholder="请输入你的用户id">
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary mb-2 mt-2">搜索</button>
+      </div>
+    </form>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <tr>
+          <th scope="col">用户id</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-end">
+        <li class="page-item">
+          <a class="page-link" href="#" tabindex="-1">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </div>
     <script src="js/jquery.min.js"></script>
